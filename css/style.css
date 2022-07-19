@@ -20,7 +20,8 @@ body {
 	width: 1321px;
 }
 .active-btn {
-	color: #dd0000;
+	background: #dd0000;
+	color: #fff;
 }
 .bg-color {
 	background: #1e1e1e;
