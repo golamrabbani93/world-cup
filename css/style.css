@@ -1,0 +1,30 @@
+/* 
+ *Import Google fonts 
+ */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/*
+ *Reset margin and padding
+ */
+* {
+	margin: 0;
+	padding: 0;
+}
+/*
+ *Common Style Start
+ */
+body {
+	font-family: "Poppins", sans-serif;
+}
+.container {
+	width: 1321px;
+}
+.active-btn {
+	color: #dd0000;
+}
+.bg-color {
+	background: #1e1e1e;
+}
+/*
+ *Common Style End
+ */
