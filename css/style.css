@@ -9,6 +9,7 @@
 * {
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 /*
  *Common Style Start
@@ -218,6 +219,7 @@ hr {
  *Footer Section Style Start
 */
 footer {
+	margin-top: 130px;
 	padding: 130px 0;
 }
 .top-footer {
@@ -264,3 +266,41 @@ footer {
 /*
  *Footer Section Style end
 */
+
+/*
+ *Upcominh Match Stylesheet Start
+ */
+.upcoming-match {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 24px;
+}
+.single-match {
+	width: 312px;
+	padding: 50px 30px;
+}
+.flag {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 0 20px 0;
+}
+.flag h4 {
+	margin: 0 20px;
+}
+.single-match .time {
+	text-align: center;
+}
+.single-match .time .match-title {
+	font-size: 20px;
+	font-weight: 600;
+	color: #1e1e1e;
+	margin-bottom: 10px;
+}
+.single-match .time .match-time {
+	font-weight: 400;
+	font-size: 16px;
+}
+/*
+ *Upcominh Match Stylesheet End
+ */
